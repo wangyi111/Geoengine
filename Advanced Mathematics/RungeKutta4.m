@@ -37,5 +37,7 @@ while xi<xmax
     yi=yip;
 end
 
-plot(x,y);    
+plot(x,y);   
+
+end
     
