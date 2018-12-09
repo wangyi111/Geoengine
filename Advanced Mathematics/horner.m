@@ -1,14 +1,21 @@
 
-%% function horner(an,x0)
+
+% advanced mathematics lab1
+% author: Yi Wang
+% last change: 09/12/2018
+
+% function [bb,xx]=horner(an,x0)
+% bb is the horner parameter matrix according to each root 
+% xx is the roots
+% an is the coefficient vector [an,a(n-1),...,a1,a0]
+% x0 is the guess of the characteristic equation
+
 % this function considers the solution of homogeneous higher order differential equations with constant coefficients 
 % Necessarty condition: all roots of the characteristic equation are real and different from each other.
 % we use Horner scheme to calculate the polynomials
 
 function [bb,xx]=horner(an,x0)
-% bb is the horner parameter matrix according to each root 
-% xx is the roots
-% an is the coefficient vector [an,a(n-1),...,a1,a0]
-% x0 is the guess of the characteristic equation
+
 c=1;d=1e-10;
 b=0;x1=x0;
 n=length(an)-1;
