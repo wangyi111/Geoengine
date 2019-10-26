@@ -1,2 +1,2 @@
 # Geoengine
-matlab or python works in the Geoengine master program
+Codes for labs in the Geoengine master program
