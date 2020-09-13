@@ -2,6 +2,8 @@
 
 2018/19 winter semester
 
+Part of module **Geomatics Methodology**, combined with course *Statistical Inference* (2018/19 winter) and course *Dynamic System Estimation* (2019 summer)
+
 **Difficulty**: ⭐️⭐️⭐️⭐️
 
 **Contents**:

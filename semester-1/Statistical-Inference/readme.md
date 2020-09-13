@@ -2,6 +2,8 @@
 
 2018/19 winter semester
 
+Part of module **Geomatics Methodology**, combined with course *Signal Processing* (2018/19 winter) and course *Dynamic System Estimation* (2019 summer)
+
 **Difficulty**: ⭐️⭐️⭐️
 
 **Contents**:
@@ -18,4 +20,4 @@
 
 * Statistical testing
 
-*Tips: exercises*
+*Tips: exercises and previous exams*
