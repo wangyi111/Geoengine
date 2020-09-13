@@ -1,0 +1,506 @@
+     GeoTec Programm DEFANA V2.10                    28. january  2019  14:28:52 Uhr                                 
+
+
+
+
+
+           @@@@@@@@   @@@@@@@@  @@@@@@@@      @@@@@  @@@@@     @@        @@@@@
+           @@@    @@  @@@       @@@          @@@ @@  @@@ @@    @@       @@@ @@
+           @@@    @@  @@@       @@@         @@@  @@  @@@  @@   @@      @@@  @@
+           @@@    @@  @@@@@@@   @@@@@@@    @@@   @@  @@@   @@  @@     @@@   @@
+           @@@    @@  @@@       @@@       @@@@@@@@@  @@@    @@ @@    @@@@@@@@@
+           @@@    @@  @@@       @@@      @@@     @@  @@@     @@@@   @@@     @@
+           @@@@@@@@   @@@@@@@@  @@@     @@@      @@  @@@      @@@  @@@      @@
+
+
+                                                    Copyright GeoTec GmbH 1988-2014
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :      1
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Output of the options                        
+      -------------------------------------------------------------------------------------------------------------------
+
+
+ 
+           Information about both epochs
+           -----------------------------
+                                                                       
+                                                                       
+           Identical points                                 :          9
+           Reference points                                 :          9
+           Degrees of freedom                               :         18
+           Standard deviation                               :     1.00
+
+
+           Datum defect
+                X-translation                               : T
+                Y-translation                               : T
+                Z-translation                               : T
+                X-orientation                               : F
+                Y-orientation                               : F
+                Z-orientation                               : F
+                Scale                                       : F
+
+
+           Characteristics of epoch 1
+           --------------------------
+                                                                       
+                                                                       
+           Points                                           :          9
+           Degees of freedom                                :          9
+           Standard deviation                               :     1.00
+           File                                             : inp\2003_v1.gg3
+
+
+           Characteristics of epoch 2
+           --------------------------
+                                                                       
+                                                                       
+           Points                                           :          9
+           Degees of freedom                                :          9
+           Standard deviation                               :     1.00
+           File                                             : inp\2012_v1.gg3
+
+
+           Output of selected options
+           --------------------------
+           Unit of computation                              :  MM
+           Risc level                                       : 0.050
+           Two step analysis                                :   F
+           Result file                                      :   T
+           Plot file                                        :   T
+           Extended output                                  :   T
+           Faktor S0                                        :    1.00
+           Global individual movement                       :   .0000
+
+
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :      2
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Indentical points                            
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Seq.                 Point               Approx Coord                       Epoch  1         Indi
+       No.                                                                        Epoch  2         move
+                                        X [m]        Y [m]    Z [m]         dX [dY [MM] dZ [MM]    [MM]
+
+
+         1                  PF01  4161483.501   665654.747  4772037.184   45.82    6.06   14.51    0.00
+                                                                           5.82   -7.27   -5.49
+         2                  PF02  4161465.685   665636.184  4772052.612   29.66   13.97   14.27    0.00
+                                                                         -10.34    0.64   -5.73
+         3                  PF03  4161431.113   665597.613  4772082.903  -19.78  -10.64  -14.89    0.00
+                                                                           0.22   -3.97   -4.89
+         4                  PF04  4161360.959   665522.422  4772144.763   -1.08  -10.14    2.51    0.00
+                                                                          18.92   -3.47   12.51
+         5                  PF05  4161227.531   665372.004  4772276.050  -17.12   -9.20  -15.65    0.00
+                                                                           2.88   -2.53   -5.65
+         6                  PF06  4161305.664   665284.243  4772235.497  -23.58   -2.14  -13.09    0.00
+                                                                          -3.58    4.53   -3.09
+         7                  PF07  4161316.553   665745.477  4772152.730  -33.36   -4.90  -17.40    0.00
+                                                                         -13.36    1.77   -7.40
+         8                  PF08  4161437.696   665452.100  4772096.275   35.92   24.26   32.71    0.00
+                                                                          -4.08   10.93   12.71
+         9                  PF10  4161068.299   666386.087  4772299.285  -16.48   -7.29   -2.98    0.00
+                                                                           3.52   -0.63    7.02
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :      3
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Analysis within reference points (backward)  
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Global test:                                       Run No:   1
+      Size of Qxx - matrix:                              Submatrices 
+      Standard deviation of unit weight:                         1.00
+      Datum points:                                                 9
+      Degrees of freedom nom. / denom.:                  24 /      18
+      Percentile of F-dist. / critical value:          2.15 <   26.26
+
+      Result of the analysis: 
+        H0 is rejected : significant movements in the network !            
+        The analysis within the reference points is being continued !                                   
+
+
+      Result of the localisation : Discrepancies of the reference points
+
+      Seq.No.             Point         dx [MM]   dy [MM] dz [MM] Dis [MM]        T    Result
+
+            1                  PF01      -40.00   -13.33   -20.00    46.67     3.51          
+            2                  PF02 *    -40.00   -13.33   -20.00    46.67     8.22  Pt moved
+            3                  PF03       20.00     6.67    10.00    23.33     2.29          
+            4                  PF04       20.00     6.67    10.00    23.33     1.79          
+            5                  PF05       20.00     6.67    10.00    23.33     2.20          
+            6                  PF06       20.00     6.67    10.00    23.33     1.09          
+            7                  PF07       20.00     6.67    10.00    23.33     2.13          
+            8                  PF08      -40.00   -13.33   -20.00    46.67     3.59          
+            9                  PF10       20.00     6.67    10.00    23.33     1.45          
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :      4
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Analysis within reference points (backward)  
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Global test:                                       Run No:   2
+      Size of Qxx - matrix:                              Submatrices 
+      Standard deviation of unit weight:                         1.00
+      Datum points:                                                 8
+      Degrees of freedom nom. / denom.:                  21 /      18
+      Percentile of F-dist. / critical value:          2.18 <   17.52
+
+      Result of the analysis: 
+        H0 is rejected : significant movements in the network !            
+        The analysis within the reference points is being continued !                                   
+
+
+      Result of the localisation : Discrepancies of the reference points
+
+      Seq.No.             Point         dx [MM]   dy [MM] dz [MM] Dis [MM]        T    Result
+
+            1                  PF01      -45.00   -15.00   -22.50    52.50     5.18          
+            2                  PF03       15.00     5.00     7.50    17.50     1.46          
+            3                  PF04       15.00     5.00     7.50    17.50     1.16          
+            4                  PF05       15.00     5.00     7.50    17.50     1.41          
+            5                  PF06       15.00     5.00     7.50    17.50     0.71          
+            6                  PF07       15.00     5.00     7.50    17.50     1.36          
+            7                  PF08 *    -45.00   -15.00   -22.50    52.50     5.30  Pt moved
+            8                  PF10       15.00     5.00     7.50    17.50     0.94          
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :      5
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Analysis within reference points (backward)  
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Global test:                                       Run No:   3
+      Size of Qxx - matrix:                              Submatrices 
+      Standard deviation of unit weight:                         1.00
+      Datum points:                                                 7
+      Degrees of freedom nom. / denom.:                  18 /      18
+      Percentile of F-dist. / critical value:          2.22 <   10.99
+
+      Result of the analysis: 
+        H0 is rejected : significant movements in the network !            
+        The analysis within the reference points is being continued !                                   
+
+
+      Result of the localisation : Discrepancies of the reference points
+
+      Seq.No.             Point         dx [MM]   dy [MM] dz [MM] Dis [MM]        T    Result
+
+            1                  PF01 *    -51.43   -17.14   -25.71    60.00     8.22  Pt moved
+            2                  PF03        8.57     2.86     4.29    10.00     0.57          
+            3                  PF04        8.57     2.86     4.29    10.00     0.45          
+            4                  PF05        8.57     2.86     4.29    10.00     0.55          
+            5                  PF06        8.57     2.86     4.29    10.00     0.28          
+            6                  PF07        8.57     2.86     4.29    10.00     0.53          
+            7                  PF10        8.57     2.86     4.29    10.00     0.37          
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :      6
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Analysis within reference points (backward)  
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Global test:                                       Run No:   4
+      Size of Qxx - matrix:                              Submatrices 
+      Standard deviation of unit weight:                         1.00
+      Datum points:                                                 6
+      Degrees of freedom nom. / denom.:                  15 /      18
+      Percentile of F-dist. / critical value:          2.27 >    0.00
+
+      Result of the analysis: 
+        H0 is accepted : no significant movements in the network!          
+        End of the analysis within the reference points !                                               
+
+
+      Result of the localisation : Discrepancies of the reference points
+
+      Seq.No.             Point         dx [MM]   dy [MM] dz [MM] Dis [MM]        T    Result
+
+            1                  PF03        0.00     0.00    -0.00     0.00     0.00          
+            2                  PF04 *     -0.00     0.00     0.00     0.00     0.00          
+            3                  PF05       -0.00     0.00    -0.00     0.00     0.00          
+            4                  PF06        0.00     0.00    -0.00     0.00     0.00          
+            5                  PF07       -0.00     0.00     0.00     0.00     0.00          
+            6                  PF10        0.00    -0.00     0.00     0.00     0.00          
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :      7
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Analysis within object points (forward)      
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Localisation:                                         1. step     
+      Size of Qxx matrix:                                full        
+      Standard deviation of unit weight:                         1.00
+      Object points:                                                3
+
+      Result of the localisation : discrepancies of the object points
+
+      Ref.No.                 Point          dx [MM]   dy [MM]   dz [MM]  Dis [MM] SDis [MM]    Result
+
+            1                  PF01 *         -60.00    -20.00    -30.00     70.00      6.72  Pt moved
+            2                  PF02           -60.00    -20.00    -30.00     70.00      4.30          
+            3                  PF08           -60.00    -20.00    -30.00     70.00      6.57          
+
+
+      Global test:                                       Run No:    1
+      Size of Qxx - matrix:                              Submatrices 
+      Standard deviation of unit weight:                         1.00
+      Datum points:                                                 7
+      Degrees of freedom nom. / denom.:                  18 /      18
+      Percentile of F-dist. / Critical value:          2.22 <   10.99
+
+      Result of the analysis: 
+        H0 is rejected : significant movement in network !                 
+        End of the deformation analysis for the object points                 
+
+
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :      8
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Result: discrepancies                        
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Type of point :                                      Reference points
+      Size of Qxx matrix :                                 Submatrices 
+
+      Seq.No.        Point              dx [MM]     dy [MM]     dz [MM]    Dis [MM]
+
+            3                  PF03        0.00        0.00       -0.00        0.00
+            4                  PF04       -0.00        0.00        0.00        0.00
+            5                  PF05       -0.00        0.00       -0.00        0.00
+            6                  PF06        0.00        0.00       -0.00        0.00
+            7                  PF07       -0.00        0.00        0.00        0.00
+            9                  PF10        0.00       -0.00        0.00        0.00
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :      9
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Result: discrepancies                        
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Type of point :                                      Object points   
+      Size of Qxx matrix :                                 Submatrices 
+
+      Seq.No.        Point              dx [MM]     dy [MM]     dz [MM]    Dis [MM]
+
+            1                  PF01      -60.00      -20.00      -30.00       70.00 Pt mov.  
+            2                  PF02      -60.00      -20.00      -30.00       70.00 Pt mov.  
+            8                  PF08      -60.00      -20.00      -30.00       70.00 Pt mov.  
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :     10
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Result: precision                            
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Type of point:                                       Reference points
+      Size of Qxx - matrix:                                Submatrices 
+
+      Ref.                    Point       A       BoA    VoA      B    BoB    ZoB      C   BoC    ZoC
+       No.                                [MM]  [deg]  [deg]   [MM]  [deg]  [deg]   [MM]  [deg]  [deg]
+
+
+            3                  PF03      11.61  10.84  39.51   6.13  14.98 129.43   3.97 103.31  87.97
+            4                  PF04      13.01  10.91  39.52   6.85  14.84 129.45   4.43 103.25  88.07
+            5                  PF05      11.76  10.75  39.67   6.22  15.43 129.57   4.17 103.53  87.70
+            6                  PF06      16.40  10.76  39.85   8.62  16.21 129.72   5.57 103.98  87.32
+            7                  PF07      11.90  10.95  39.63   6.32  15.94 129.53   4.30 103.92  87.54
+            9                  PF10      14.62  10.08  36.35   8.16  11.78 126.34   5.14 101.18  89.19
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :     11
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Result: precision                            
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Type of point:                                       Object points   
+      Size of Qxx - matrix:                                Submatrices 
+
+      Ref.                    Point       A       BoA    VoA      B    BoB    ZoB      C   BoC    ZoC
+       No.                                [MM]  [deg]  [deg]   [MM]  [deg]  [deg]   [MM]  [deg]  [deg]
+
+
+            1                  PF01      22.36   9.12  39.47  11.95   7.29 129.46   7.97  98.03  90.90 Pt moved 
+            2                  PF02      14.23  10.81  39.65   7.57  14.87 129.58   5.06 103.22  88.00 Pt moved 
+            8                  PF08      21.85  11.35  38.78  11.63  12.34 128.78   7.50 101.95  89.52 Pt moved 
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :     12
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Result: discrepancies (local)                
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Type of point :                                      Reference points
+      Size of Qxx matrix :                                 Submatrices 
+
+      Seq.No.        Point              dy [MM]     dx [MM]     dz [MM]    Dis [MM]
+
+            3                  PF03       -0.00       -0.00       -0.00        0.00
+            4                  PF04        0.00        0.00        0.00        0.00
+            5                  PF05        0.00        0.00       -0.00        0.00
+            6                  PF06       -0.00       -0.00       -0.00        0.00
+            7                  PF07        0.00        0.00        0.00        0.00
+            9                  PF10       -0.00        0.00        0.00        0.00
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :     13
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Result: discrepancies (local)                
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Type of point :                                      Object points   
+      Size of Qxx matrix :                                 Submatrices 
+
+      Seq.No.        Point              dy [MM]     dx [MM]     dz [MM]    Dis [MM]
+
+            1                  PF01      -10.27       27.13      -63.71       70.00 Pt mov.  
+            2                  PF02      -10.27       27.13      -63.71       70.00 Pt mov.  
+            8                  PF08      -10.27       27.13      -63.71       70.00 Pt mov.  
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :     14
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Result: precision (local)                    
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Type of point:                                       Reference points
+      Size of Qxx - matrix:                                Submatrices 
+
+      Ref.                    Point       A       BoA    VoA      B    BoB    ZoB      C   BoC    ZoC
+       No.                                [MM]  [deg]  [deg]   [MM]  [deg]  [deg]   [MM]  [deg]  [deg]
+
+
+            3                  PF03      11.61  32.29   2.09   6.13 355.45  91.67   3.97  85.49  91.25
+            4                  PF04      13.01  33.48   2.10   6.85 355.56  91.66   4.43  85.60  91.29
+            5                  PF05      11.76  33.62   1.92   6.22 355.11  91.50   4.17  85.14  91.20
+            6                  PF06      16.40  37.13   1.78   8.62 354.52  91.31   5.57  84.55  91.21
+            7                  PF07      11.90  35.86   2.02   6.32 354.72  91.52   4.30  84.75  91.33
+            9                  PF10      14.62   6.77   4.95   8.16 357.83  94.89   5.14  87.90  90.76
+
+      DEFANA V2.10                28. january  2019  14:28:52 Uhr                        page  :     15
+                            Universität Stuttgart IAGB                              
+
+
+                                                                               
+                                                                               
+                                                                               
+
+
+                                  Result: precision (local)                    
+      -------------------------------------------------------------------------------------------------------------------
+
+
+      Type of point:                                       Object points   
+      Size of Qxx - matrix:                                Submatrices 
+
+      Ref.                    Point       A       BoA    VoA      B    BoB    ZoB      C   BoC    ZoC
+       No.                                [MM]  [deg]  [deg]   [MM]  [deg]  [deg]   [MM]  [deg]  [deg]
+
+
+            1                  PF01      22.36   0.66   1.79  11.95   1.39  91.79   7.97  91.39  89.98 Pt moved 
+            2                  PF02      14.23  34.14   1.95   7.57 355.54  91.53   5.06  85.57  91.22 Pt moved 
+            8                  PF08      21.85  29.66   2.87  11.63 357.46  92.43   7.50  87.53  91.53 Pt moved 

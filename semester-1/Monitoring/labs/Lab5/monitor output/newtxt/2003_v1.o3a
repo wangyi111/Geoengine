@@ -1,0 +1,382 @@
+          GeoTec Programm PAN, V 4.40X,  7. february 2019  11:56:47 Uhr                                 
+
+
+
+
+
+                 @@@@@@@@@@@            @@@@@@      @@@@@      @@ 
+                 @@@@      @@          @@@@ @@      @@@@@@     @@ 
+                 @@@@      @@         @@@@  @@      @@@@ @@    @@ 
+                 @@@@      @@        @@@@   @@      @@@@  @@   @@ 
+                 @@@@@@@@@@@        03.03.2015      @@@@   @@  @@ 
+                 @@@@              @@@@     @@      @@@@    @@ @@ 
+                 @@@@             @@@@      @@      @@@@     @@@@ 
+                 @@@@            @@@@       @@      @@@@      @@@ 
+
+ 
+                                         COPYRIGHT GeoTec GmbH Laatzen 1986-2014
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:       2
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             Selected options                        
+      ---------------------------------------------------------------------------------------------------------------------------
+ 
+
+
+           option       description                               value/unit
+
+
+           *system      unit of measurements                     meter   gon
+
+           *dimen       unit for computation                        mm   mgon
+
+           *comsys      definition of coordinate system of computations
+                           system                             global
+
+           *ankpkt      number of decimal places coordinates:            4
+
+           *ankbeo      number of decimal places observations:           4
+
+           *origin      definition of the origin
+                          translation                         global              
+                          orientation                         global              
+
+           *mce         mean centring error                      0.00000
+
+           *gross_e     risc level for outlier test                0.050
+
+           *s0          a priori standard deviation                1.000
+
+           *print       printer output
+                          observations prior to adjustment         T
+                          residuals and data snooping              T
+                          obsrvation after adjustment              T
+                          extended panlog file                     F
+
+           *save        saving of the adjustment results      dia
+
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:       3
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             List of initial coordinates             
+      ---------------------------------------------------------------------------------------------------------------------------
+ 
+           type of coordinates:  global cartesian coordinate system                          
+           ---------------------
+
+           ellipsoid : mathematical right handed syst     projection : WGS84   
+
+
+---------------------
+
+           ellipsoid : UTM     
+ 
+      seq.                 pt.no.                      x [m]          y [m]           z [m]  mce
+       no.                                           xi [sec]        eta [sec]        n [m] [mm]
+
+         1                         PF03 *        4161431.1130    665597.6134   4772082.9031    0.00
+                                                        0.000          0.000
+         2                         PF04 *        4161360.9589    665522.4225   4772144.7627    0.00
+                                                        0.000          0.000
+         3                         PF05 *        4161227.5309    665372.0038   4772276.0505    0.00
+                                                        0.000          0.000
+         4                         PF06 *        4161305.6636    665284.2432   4772235.4969    0.00
+                                                        0.000          0.000
+         5                         PF07 *        4161316.5533    665745.4769   4772152.7304    0.00
+                                                        0.000          0.000
+         6                         PF10 *        4161068.2994    666386.0873   4772299.2852    0.00
+                                                        0.000          0.000
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:       4
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             Observation prior to adjustment         
+      ---------------------------------------------------------------------------------------------------------------------------
+ 
+      group  :      1: coordinate differences 
+      source         : inp\epoch_2003.vg3             factor :      7.860
+      x-orientation  :              y-orientation  :              z-orientation  :         
+      scale          :         
+ 
+     ref.            inst stat             target st           co diff.       co diff.    abs.  stand-  factor                     
+      no.                                                    (observed)     (computed)    term    dev.                             
+                                                                 [m]            [m]      [mm]    [mm]                              
+
+       1                  PF05                  PF03  vx       203.5802       203.5821   -1.90    0.88    1.00
+       2                  PF05                  PF03  vy       225.6080       225.6096   -1.60    0.79    1.00
+       3                  PF05                  PF03  vz      -193.1457      -193.1474    1.70    0.88    1.00
+       4                  PF06                  PF04  vx        55.3178        55.2953   22.50    3.63    1.00
+       5                  PF06                  PF04  vy       238.1713       238.1793   -8.00    1.79    1.00
+       6                  PF06                  PF04  vz       -90.7186       -90.7342   15.60    4.05    1.00
+       7                  PF03                  PF04  vx       -70.1354       -70.1541   18.70    3.67    1.00
+       8                  PF03                  PF04  vy       -75.1904       -75.1909    0.50    1.79    1.00
+       9                  PF03                  PF04  vz        61.8770        61.8596   17.40    4.16    1.00
+      10                  PF05                  PF07  vx        89.0058        89.0224  -16.60    0.87    1.00
+      11                  PF05                  PF07  vy       373.4772       373.4731    4.10    0.79    1.00
+      12                  PF05                  PF07  vz      -123.3224      -123.3201   -2.30    0.89    1.00
+      13                  PF03                  PF07  vx      -114.5728      -114.5597  -13.10    1.01    1.00
+      14                  PF03                  PF07  vy       147.8695       147.8635    6.00    0.79    1.00
+      15                  PF03                  PF07  vz        69.8257        69.8273   -1.60    1.15    1.00
+      16                  PF05                  PF10  vx      -159.2356      -159.2315   -4.10    2.97    1.00
+      17                  PF05                  PF10  vy      1014.0866      1014.0835    3.10    1.59    1.00
+      18                  PF05                  PF10  vz        23.2453        23.2347   10.60    3.43    1.00
+      19                  PF03                  PF10  vx      -362.8064      -362.8136    7.20    2.85    1.00
+      20                  PF03                  PF10  vy       788.4767       788.4739    2.80    1.48    1.00
+      21                  PF03                  PF10  vz       216.3949       216.3821   12.80    4.10    1.00
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:       5
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             Residual and data snooping              
+      ---------------------------------------------------------------------------------------------------------------------------
+ 
+      group  :      1: coordinate differences 
+      source         : inp\epoch_2003.vg3             factor :      7.860
+      x-orientation  :              y-orientation  :              z-orientation  :         
+      scale          :         
+ 
+     seq.               inst stat        target st         co diff.   resi-  norm.  red.    m.d.  ax(zp)                           
+      no.                                                             dual   resi.  num.   error                                   
+                                                     [m]               [mm]                 [mm]    [mm]                           
+
+       1                 PF05                 PF03  VX     203.5802   -0.74   1.26  0.32    3.57    0.00
+       2                 PF05                 PF03  VY     225.6080    0.13   0.23  0.39    3.24   -0.00
+       3                 PF05                 PF03  VZ    -193.1457   -0.76   1.38  0.27    3.88    0.00
+         residual in local horizon system : vx:     0.04 mm vy:     0.25 mm vz:    -1.04 mm
+       4                 PF06                 PF04  VX      55.3178   -0.00   0.00  0.00 9999.99 9999.99
+       5                 PF06                 PF04  VY     238.1713   -0.00   0.00  0.00 9999.99 9999.99
+       6                 PF06                 PF04  VZ     -90.7186   -0.00   0.00  0.00 9999.99    0.02
+         residual in local horizon system : vx:     0.00 mm vy:    -0.00 mm vz:    -0.00 mm
+       7                 PF03                 PF04  VX     -70.1354    0.00   0.00  0.00 9999.99 9999.99
+       8                 PF03                 PF04  VY     -75.1904    0.00   0.00  0.00 9999.99 9999.99
+       9                 PF03                 PF04  VZ      61.8770    0.00   0.00  0.00 9999.99   -0.01
+         residual in local horizon system : vx:    -0.00 mm vy:    -0.00 mm vz:     0.00 mm
+      10                 PF05                 PF07  VX      89.0058    0.37   0.67  0.30    3.71   -0.00
+      11                 PF05                 PF07  VY     373.4772    0.18   0.33  0.35    3.43   -0.00
+      12                 PF05                 PF07  VZ    -123.3224    0.61   1.10  0.26    4.01   -0.00
+         residual in local horizon system : vx:     0.11 mm vy:     0.12 mm vz:     0.72 mm
+      13                 PF03                 PF07  VX    -114.5728   -0.48   0.63  0.41    3.17    0.00
+      14                 PF03                 PF07  VY     147.8695   -0.25   0.45  0.34    3.48    0.00
+      15                 PF03                 PF07  VZ      69.8257   -1.03   1.10  0.49    2.91    0.00
+         residual in local horizon system : vx:    -0.29 mm vy:    -0.17 mm vz:    -1.12 mm
+      16                 PF05                 PF10  VX    -159.2356    4.75   1.89  0.51    2.84   -0.00
+      17                 PF05                 PF10  VY    1014.0866   -1.21   0.92  0.51    2.85    0.00
+      18                 PF05                 PF10  VZ      23.2453    2.15   0.82  0.37    3.35   -0.00
+         residual in local horizon system : vx:    -1.97 mm vy:    -1.95 mm vz:     4.58 mm
+      19                 PF03                 PF10  VX    -362.8064   -3.91   1.69  0.47    2.96    0.00
+      20                 PF03                 PF10  VY     788.4767    0.56   0.48  0.40    3.20   -0.00
+      21                 PF03                 PF10  VZ     216.3949   -1.00   0.27  0.61    2.59    0.00
+         residual in local horizon system : vx:     2.18 mm vy:     1.17 mm vz:    -3.24 mm
+ 
+      Observation Seq.No.      16 has largest normalized residual :    1.89
+      Critical value of Tau distribution value ( ALPHA = 0.050 ) :   2.28
+
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:       6
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             Variance component estimation           
+      ---------------------------------------------------------------------------------------------------------------------------
+ 
+      global test for theoretical variance :
+      --------------------------------------
+
+      variance of unit weight  ( a priori )     :     1.000
+      variance of unit weight  ( a posteriori ) :     1.402
+
+      test statistics :                               1.402
+      percentile of f-distribution                    2.108
+      degree of freedom numerator   :                  6
+      degree of freedom denominator :                999
+
+
+      at the chosen significance level of 0.950 the empirical variance 
+      agrees with the theoretical variance.
+
+      a change of the a priori standard deviation is not required !
+
+
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:       7
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             Variance component estimation           
+      ---------------------------------------------------------------------------------------------------------------------------
+ 
+      variance component estimation :
+      -------------------------------
+
+      no.  type          info                vpv       red   (s0)2     adapted sobs
+
+       1    KD                             8.413     6.000   1.402       9.31     
+ 
+      check of sum :
+      --------------
+
+           type                vpv         red
+
+            kd                 8.4133      6.0000
+         total                 8.4133      6.0000
+         check                -8.4133      6     sum lpv resp. sum degree of freedom
+
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:       8
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             Network specific indicators             
+      ---------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+      Number of observations:                                21
+
+      Number of directions:                                   0
+      Number of azimuths:                                     0
+      Number of zenith angles:                                0
+      Number of distances:                                    0
+      Number of height differences:                           0
+      Number of measured coordinates:                         0
+      Number of coordinate differences:                      21
+
+
+      number of network points:                               6
+      number of fixed points:                                 0
+      number of datum points:                                 6
+
+
+      number of coordinate  parameters:                      18
+      number of additional  parameters:                       0
+      number of orientation unknowns:                         0
+
+
+      free network parameter ( rank defect ):                 3
+      total redundancy of adjustment:                         6
+      stand. deviation of unit weight (a priori):            1.000
+      stand. dev. of unit weight (a posteriori) :            1.184
+      number of iterations:                                   1
+      number of rank deficits:                                0
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:       9
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             Final adjusted coordinates              
+      ---------------------------------------------------------------------------------------------------------------------------
+ 
+      Seq.            Point                X              Y              Z          dx     dy     dz     Sx     Sy     Sz
+                                          [m]            [m]            [m]       [mm]   [mm]   [mm]   [mm]   [mm]   [mm]
+
+        1                  PF03 *    4161431.1118    665597.6101   4772082.8985  -1.21  -3.26  -4.57   1.70   0.86   1.93
+        2                  PF04 *    4161360.9764    665522.4197   4772144.7755  17.49  -2.76  12.83   3.03   1.50   3.44
+        3                  PF05 *    4161227.5323    665372.0020   4772276.0450   1.43  -1.79  -5.51   1.76   0.96   1.98
+        4                  PF06 *    4161305.6586    665284.2484   4772235.4941  -5.01   5.24  -2.77   4.64   2.29   5.21
+        5                  PF07 *    4161316.5385    665745.4794   4772152.7232 -14.79   2.49  -7.20   1.80   0.99   2.03
+        6                  PF10 *    4161068.3015    666386.0874   4772299.2924   2.08   0.09   7.23   2.59   1.33   3.16
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:      10
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             Point related measures of precision     
+      ---------------------------------------------------------------------------------------------------------------------------
+      error ellipses    :
+
+ 
+      seq.            point             a    boa    zoa      b    bob    zob      c    boc    zoc
+       no.                           [mm]  [gon]  [gon]   [mm]  [gon]  [gon]   [mm]  [gon]  [gon]
+
+
+        1                  PF03 *    2.29  12.27  43.62   1.21  16.75 143.55   0.80 114.96  97.80
+        2                  PF04 *    4.09  12.37  43.86   2.14  16.13 143.80   1.38 114.61  98.15
+        3                  PF05 *    2.36  11.98  44.19   1.26  18.72 144.02   0.90 115.97  96.68
+        4                  PF06 *    6.23  11.98  44.44   3.27  18.69 144.27   2.11 115.93  96.69
+        5                  PF07 *    2.41  12.50  43.96   1.29  19.13 143.79   0.93 116.45  96.74
+        6                  PF10 *    3.56  10.75  37.99   2.04  11.32 137.99   1.27 111.14  99.73
+
+     PAN V 4.40                                  7. february 2019  11:56:47 Uhr                              page:      11
+                                    GEOTEC GmbH Laatzen                                         
+
+
+                                                                               
+                                                                               
+
+
+                             Observations after adjustment           
+      ---------------------------------------------------------------------------------------------------------------------------
+ 
+      group  :      1: coordinate differences 
+      source         : inp\epoch_2003.vg3             factor :      7.860
+      x-orientation  :              y-orientation  :              z-orientation  :         
+      scale          :         
+ 
+     seq.                inst stat        target st          co diff.  stand.     co diff.    residual                             
+      no.                                                  (adjusted)    dev.   (computed)                                         
+                                                               [m]       [mm]       [m]         [m]                                
+
+       1                  PF05                  PF03  vx     203.5795    0.85     203.5795  -0.12E-09
+       2                  PF05                  PF03  vy     225.6081    0.73     225.6081   0.31E-10
+       3                  PF05                  PF03  vz    -193.1465    0.88    -193.1465   0.21E-09
+       4                  PF06                  PF04  vx      55.3178    4.30      55.3178   0.16E-09
+       5                  PF06                  PF04  vy     238.1713    2.12     238.1713   0.71E-10
+       6                  PF06                  PF04  vz     -90.7186    4.80     -90.7186  -0.68E-09
+       7                  PF03                  PF04  vx     -70.1354    4.35     -70.1354   0.28E-10
+       8                  PF03                  PF04  vy     -75.1904    2.12     -75.1904   0.80E-10
+       9                  PF03                  PF04  vz      61.8770    4.93      61.8770  -0.33E-09
+      10                  PF05                  PF07  vx      89.0062    0.86      89.0062  -0.25E-09
+      11                  PF05                  PF07  vy     373.4774    0.75     373.4774   0.61E-10
+      12                  PF05                  PF07  vz    -123.3218    0.90    -123.3218   0.26E-09
+      13                  PF03                  PF07  vx    -114.5733    0.92    -114.5733  -0.13E-09
+      14                  PF03                  PF07  vy     147.8692    0.75     147.8692   0.29E-10
+      15                  PF03                  PF07  vz      69.8247    1.00      69.8247   0.56E-10
+      16                  PF05                  PF10  vx    -159.2309    2.46    -159.2309  -0.56E-10
+      17                  PF05                  PF10  vy    1014.0854    1.33    1014.0854   0.10E-09
+      18                  PF05                  PF10  vz      23.2474    3.11      23.2474  -0.34E-09
+      19                  PF03                  PF10  vx    -362.8103    2.45    -362.8103   0.68E-10
+      20                  PF03                  PF10  vy     788.4773    1.32     788.4773   0.72E-10
+      21                  PF03                  PF10  vz     216.3939    3.13     216.3939  -0.54E-09
+     Maximum linearization error:   0.676508E-09
+     Program PAN(INTEL) finished. Elapsed cpu time:         0.06 sec!
