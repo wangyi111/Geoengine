@@ -1,0 +1,18 @@
+% u=linspace(0,2*pi,20);
+% v=linspace(0,2*pi,20);
+% [U,V]=meshgrid(u,v);
+% A=2;
+% B=1;
+% x=(A+B.*cos(V)).*cos(U);
+% y=(A+B.*cos(V)).*sin(U);
+% z=B.*sin(V);
+% %[X,Y]=meshgrid(x,y);
+% %mesh(X,Y,Z);
+% %mesh(x,y,z);
+% surf(x,y,z);
+A=2;
+B=1;
+funx=@(u,v) (A+B.*cos(v)).*cos(u);
+funy=@(u,v) (A+B.*cos(v)).*sin(u);
+funz=@(u,v) B.*sin(v);
+fsurf(funx,funy,funz,[0 2*pi 0 2*pi]);
