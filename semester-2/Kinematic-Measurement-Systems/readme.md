@@ -15,4 +15,4 @@
 * Control of moving objects
 * Guidance and control in construction
 
-*Tips: lecture notes and previous exams*
+*Tips: [lecture notes](https://drive.google.com/file/d/1aWJWShAtfZfW6dSrA5swxGvdErOw2BXT/view?usp=sharing) and previous exams*
