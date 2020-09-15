@@ -17,8 +17,13 @@ Course summaries of the Universitaat Stuttgart master program Geoengine (2018-20
 
 | Course | Course Difficulty | Exam Difficulty |
 | ------ | ----------------- | --------------- |
+| [Airborne Data Acquisition](./semester-2/Airborne-Data-Acquisition/) | ⭐️⭐️⭐ | ⭐️⭐️⭐ |
 | [Dynamic System Estimation](./semester-2/Dynamic-System-Estimation/) | ⭐️⭐️⭐ | ⭐️⭐️⭐️⭐️ |
 | [Kinematic Measurement Systems](./semester-2/Kinematic-Measurement-Systems/) | ⭐️⭐️ | ⭐️⭐️ |
+| [Physical Geodesy](./semester-2/Physical-Geodesy/) | ⭐️⭐️⭐ | ⭐️⭐️ |
+| [Remote Sensing](./semester-2/Remote-Sensing/) | ⭐️⭐️⭐ | ⭐️⭐️ |
+| [Integrated Fieldwork](./semester-2/Integrated-Fieldwork/) | ⭐️ | ⭐️ |
+
 
 
 
