@@ -1,15 +1,3 @@
-<style>
-table th:first-of-type {
-    width: 24em;
-}
-table th:nth-of-type(2) {
-    width: 8em;
-}
-table th:nth-of-type(3) {
-    width: 8em;
-}
-</style>
-
 # Geoengine
 
 Course summaries of the Universitaat Stuttgart master program Geoengine (2018-2020).
@@ -44,7 +32,7 @@ Course summaries of the Universitaat Stuttgart master program Geoengine (2018-20
 | [Thematic Cartography](./semester-3/Thematic-Cartography/) | ⭐️⭐️ | ⭐️⭐️ |
 | [Computer Vision](./semester-3/E-Computer-Vision-and-Pattern-Recognition/Computer-Vision/) | ⭐️⭐️⭐️ | ⭐️⭐️⭐️ |
 | [Pattern Recognition](./semester-3/E-Computer-Vision-and-Pattern-Recognition/Pattern-Recognition/) | ⭐️⭐️⭐⭐ | ⭐️⭐️ |
-| [Integrated Positioning and navigation         ](./semester-3/E-Navigation/Integrated-Positioning-and-Navigation/) | ⭐️⭐️⭐ | ⭐️⭐️⭐️ |
+| [Integrated Positioning and navigation](./semester-3/E-Navigation/Integrated-Positioning-and-Navigation/) | ⭐️⭐️⭐ | ⭐️⭐️⭐️ |
 | [Satellite Navigation](./semester-3/E-Navigation/Satellite-Navigation/) | ⭐️⭐️⭐️ | ⭐️⭐️⭐️ |
 
 
