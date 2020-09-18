@@ -1,6 +1,6 @@
 # Geoengine
 
-Course summaries of the Universitaat Stuttgart master program Geoengine (2018-2020).
+Course summaries of Geoengine master program (2018-2020).
 
 ## [Semester-1](./semester-1/):
 
