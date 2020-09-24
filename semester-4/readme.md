@@ -1,4 +1,4 @@
-# semseter 4
+# Semseter 4
 
 ### Possible research/thesis topics in the Uni.
 
