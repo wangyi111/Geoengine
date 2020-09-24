@@ -33,7 +33,7 @@
   * [Hardware: Sensorfusion, low-cost solutions and software-defined receivers](https://www.ins.uni-stuttgart.de/en/research/hardware/)
   * [Applications: GNSS for meteorology, remote sensing and time- and frequency transfer](https://www.ins.uni-stuttgart.de/en/research/applications/)
 
-*Tips: Master theis topics of previous students can be found in the institutes' websites.*
+*Tip: Master theis topics of previous students can be found in the institutes' websites.*
 
 ### Possible Outside Places (internship/thesis)
 
@@ -51,4 +51,6 @@
   * Continental
   * ...
 
-*Tips: German language >> major/experience > grades > others*
+*Tip1: If you want to find a job in Germany, usually German language >>> major/experience > grades > others*
+*Tip2: It is usually not so easy (probablly quite difficult) to find a suitable internship position, because there's no compulsory internship credits in this master program.*
+*Tip3: Have a look at job-searching websites such as linkedin, step-stone, etc.*
