@@ -52,5 +52,7 @@
   * ...
 
 *Tip1: If you want to find a job in Germany, usually German language >>> major/experience > grades > others*
+
 *Tip2: It is usually not so easy (probablly quite difficult) to find a suitable internship position, because there's no compulsory internship credits in this master program.*
+
 *Tip3: Have a look at job-searching websites such as linkedin, step-stone, etc.*
