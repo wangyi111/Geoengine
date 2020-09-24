@@ -35,6 +35,7 @@ Course summaries of the Universitaat Stuttgart master program Geoengine (2018-20
 | [Integrated Positioning and navigation](./semester-3/E-Navigation/Integrated-Positioning-and-Navigation/) | ⭐️⭐️⭐ | ⭐️⭐️⭐️ |
 | [Satellite Navigation](./semester-3/E-Navigation/Satellite-Navigation/) | ⭐️⭐️⭐️ | ⭐️⭐️⭐️ |
 
+## [Semester-4](./semester-4/):
 
-
+master thesis (30/120 credits) 
  
