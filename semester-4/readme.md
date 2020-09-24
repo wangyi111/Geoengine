@@ -1,6 +1,6 @@
 # Semseter 4
 
-### Possible research/thesis topics in the Uni.
+### Possible research/thesis topics in the Uni: 
 
 * [Institute for Photogrammetry](https://www.ifp.uni-stuttgart.de/en/research/):
   * [Photogrammetric Computer Vision](https://www.ifp.uni-stuttgart.de/en/research/photogrammetric_computer_vision/)
@@ -35,7 +35,7 @@
 
 *Tip: Master theis topics of previous students can be found in the institutes' websites.*
 
-### Possible Outside Places (internship/thesis)
+### Possible Outside Places (internship/thesis): 
 
 * Institutes
   * Max Planck institute (information system, informatics, Chemistry, Meteorologie, Biogeochemistry, Gravitational Physics, etc.)
