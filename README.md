@@ -34,8 +34,8 @@ Course summaries of Geoengine master program.
 | [Pattern Recognition](./semester-3/E-Computer-Vision-and-Pattern-Recognition/Pattern-Recognition/) | ⭐️⭐️⭐⭐ | ⭐️⭐️ |
 | [Integrated Positioning and navigation](./semester-3/E-Navigation/Integrated-Positioning-and-Navigation/) | ⭐️⭐️⭐ | ⭐️⭐️⭐️ |
 | [Satellite Navigation](./semester-3/E-Navigation/Satellite-Navigation/) | ⭐️⭐️⭐️ | ⭐️⭐️⭐️ |
-| [Foundations of Satellite Geodesy](./semester-3/E-Satellite-Geodesy/Foundations-of-Satellite-Geodesy/) |      |      |
-| [Satellite Geodesy Observation Techniques](./semester-3/E-Satellite-Geodesy/Satellite-Geodesy-Observation-Techniques/) |    |    |
+| [Foundations of Satellite Geodesy](./semester-3/E-Satellite-Geodesy/Foundations-of-Satellite-Geodesy/) | ⭐️⭐️⭐ | ⭐️⭐️⭐ |
+| [Satellite Geodesy Observation Techniques](./semester-3/E-Satellite-Geodesy/Satellite-Geodesy-Observation-Techniques/) | ⭐️⭐️⭐ | ⭐️⭐️⭐ |
 | [Terrestrial Multisensor Systems](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/Terrestrial-Multisensor-Systems/) | ⭐️⭐️⭐ | ⭐️⭐️ |
 | [Transport Telematics](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/Transport-Telematics/) | ⭐️⭐️⭐ | ⭐️⭐️ |
 
@@ -50,6 +50,7 @@ master thesis (30/120 credits)
 * For specific questions, create an issue or feel free to contact previous students.
 
 **Acknowledgment**: 
-* Thank Zhenqiao Wang for providing materials for elective module [Multisensor Integration in Geodesy and Transport](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/).
+* Thank Zhenqiao Wang for elective module [Multisensor Integration in Geodesy and Transport](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/).
+* Thank Yifei Zheng for elective module [Satellite Geodesy](./semester-3/E-Satellite-Geodesy/).
 * Thank other students from 13th and earlier generations for the completion of this collection.
 
