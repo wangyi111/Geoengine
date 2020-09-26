@@ -1,6 +1,6 @@
 # Geoengine
 
-Course summaries of Geoengine master program (2018-2020).
+Course summaries of Geoengine master program.
 
 ## [Semester-1](./semester-1/):
 
@@ -35,11 +35,21 @@ Course summaries of Geoengine master program (2018-2020).
 | [Integrated Positioning and navigation](./semester-3/E-Navigation/Integrated-Positioning-and-Navigation/) | ⭐️⭐️⭐ | ⭐️⭐️⭐️ |
 | [Satellite Navigation](./semester-3/E-Navigation/Satellite-Navigation/) | ⭐️⭐️⭐️ | ⭐️⭐️⭐️ |
 | [Foundations of Satellite Geodesy](./semester-3/E-Satellite-Geodesy/Foundations-of-Satellite-Geodesy/) |      |      |
-| [Satellite Geodesy Observation Techniques](./semester-3/E-Satellite-Geodesy/Satellite-Geodesy-Observation-Techniques/) |      |      |
-| [Terrestrial Multisensor Systems](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/Terrestrial-Multisensor-Systems/) |      |      |
-| [Transport Telematics](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/Transport-Telematics/) |      |      |
+| [Satellite Geodesy Observation Techniques](./semester-3/E-Satellite-Geodesy/Satellite-Geodesy-Observation-Techniques/) |    |    |
+| [Terrestrial Multisensor Systems](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/Terrestrial-Multisensor-Systems/) | ⭐️⭐️⭐ | ⭐️⭐️ |
+| [Transport Telematics](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/Transport-Telematics/) | ⭐️⭐️⭐ | ⭐️⭐️ |
 
 ## [Semester-4](./semester-4/):
 
 master thesis (30/120 credits) 
  
+**Note**: 
+* This repository is based on period 2018-2020 (13th generation), updates from further students are gratefully welcomed.
+* Materials (lecture notes, exercise sheets, etc.) from the institutes are under protection, of which some are encrypted (inner students only). For outside visitors please contact us for further information if you are interested.
+* There exist some misses/errors, create pull requests for corrections/additions.
+* For specific questions, create an issue or feel free to contact previous students.
+
+**Acknowledgment**: 
+* Thank Zhenqiao Wang for providing materials for elective module [Multisensor Integration in Geodesy and Transport](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/).
+* Thank other students from 13th and earlier generations for the completion of this collection.
+

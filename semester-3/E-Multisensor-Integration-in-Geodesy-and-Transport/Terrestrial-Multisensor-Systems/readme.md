@@ -4,9 +4,9 @@
 
 Part of elective module **Multisensor Integration in Geodesy and Transport**, combined with course *Transport Telematics* (2019/20 winter).
 
-**Course Difficulty**: (to be updated)
+**Course Difficulty**: ⭐️⭐️⭐
 
-**Exam Difficulty**: (to be updated)
+**Exam Difficulty**: ⭐️⭐️
 
 **Contents**: (to be updated)
 
