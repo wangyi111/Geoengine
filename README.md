@@ -51,7 +51,7 @@ master thesis (30/120 credits)
 * For specific questions, create an issue or feel free to contact previous students.
 
 **Acknowledgment**: 
-* Thank Zhenqiao Wang for elective module [Multisensor Integration in Geodesy and Transport](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/).
-* Thank Yifei Zheng for elective module [Satellite Geodesy](./semester-3/E-Satellite-Geodesy/).
+* Thank Zhenqiao for elective module [Multisensor Integration in Geodesy and Transport](./semester-3/E-Multisensor-Integration-in-Geodesy-and-Transport/).
+* Thank Yifei for elective module [Satellite Geodesy](./semester-3/E-Satellite-Geodesy/).
 * Thank other students from 13th and earlier generations for the completion of this collection.
 
