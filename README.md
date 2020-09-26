@@ -42,10 +42,11 @@ Course summaries of Geoengine master program.
 ## [Semester-4](./semester-4/):
 
 master thesis (30/120 credits) 
- 
+
+---
 **Note**: 
 * This repository is based on period 2018-2020 (13th generation), updates from further students are gratefully welcomed.
-* Materials (lecture notes, exercise sheets, etc.) from the institutes are under protection, of which some are encrypted (inner students only). For outside visitors please contact us for further information if you are interested.
+* Materials (lecture notes, exercise sheets, etc.) from the institutes are under protection, of which some are encrypted (inner students only). For outside visitors please contact us for further information.
 * There exist some misses/errors, create pull requests for corrections/additions.
 * For specific questions, create an issue or feel free to contact previous students.
 
