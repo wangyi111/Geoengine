@@ -1,0 +1,5 @@
+1. In MatLab code 'tm_lab3', the pre-process of 'calibration for Gyroscope for odometer and for GPS' is to get the data files 'Gyroscope_cali_dangle', 'Odometer_cali_distance' and 'Gps_cali_position'. 
+
+2. With the computed data files, the code KF_circle is to plot the result of circle test drive.
+
+3. With the computed data files, the code tm_lab3 is to plot the result of straight line result and random model.

@@ -1,6 +1,0 @@
-1. column: Timestamp [s]
-2. column: Silicon sensing gyroscope [Volt]
-3. column: silicon calibrated [°/s]
-4. column: optical speed [Volt]
-5. column: Bosch Gyroscope [Volt]
-6. column: Bosch Acceleration [Volt]
